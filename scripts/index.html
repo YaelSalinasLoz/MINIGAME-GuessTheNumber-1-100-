@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="label">
+        <h1>JUEGO</h1>
+        <p>Pienso en un número entre 1 y 100 ¿Puedes adivinarlo?</p>
+        <label class="tx-1">Ingresa el número:</label>
+        <input type="text" id="numero" class="input_num">
+        <input class="boton_enviar"  type="submit" onclick="iniciarJuego()" id="submit" placeholder="Enviar Respuesta">
+        <p id="spanNoIntentos">Número de Intentos: 0</p>
+        <p>Intentos anteriores: <span id="intentos"></span></p>
+        <div id="resultado" style="display: none;"></div>
+    
+        <button class="boton_reiniciar" onclick="reiniciarJuego()">Iniciar juego nuevo</button>
+    
+    </div>
+    <script src="/scripts/script.js"></script>
+</body>
+</html>

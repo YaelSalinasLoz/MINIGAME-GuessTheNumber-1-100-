@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    display: grid;
+    place-items: center;   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #0e2028;
+}
+
+.label{
+    margin-top: 30px;
+    background: #DDFAFF;
+    width: 550px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10%;
+    box-shadow: 0 0 25px rgb(255, 255, 255, 0.8);
+}
+
+.label h1{
+    font-size: 2rem;
+    font-weight: 900;
+    margin-bottom: 1rem;
+    margin-top: 20px;
+    color:#1e3f49;
+}
+
+.label p{
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-align: center;
+    line-height: 1.8rem;
+    color:#346874;
+}
+
+.label .tx-1{
+    margin-top: 20px;
+    width: 400px;
+    height: 50px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-align: center;
+    color: #346874;
+}
+
+.input_num{
+    width: 100px;
+    height: 50px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;   
+    border-radius: 18px;
+}
+
+.boton_enviar{
+    margin: 10px;
+    width: 100px;
+    height: 40px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-align: center;
+    color: #fff;
+    border-radius: 10%;
+    border: none;
+    cursor: pointer;
+    background-color: #346874;
+    transition: all ease-in-out 0.3s;
+}
+
+.boton_enviar:hover{
+    background-color: #76dee7;
+}
+
+.boton_reiniciar{
+    margin-top: 10px;
+    width: 300px;
+    height: 40px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-align: center;
+    background-color: #346874;
+    border-radius: 10%;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    transition: all ease-in-out 0.3s;
+}
+
+
+.boton_reiniciar:hover{
+    background-color: #76dee7;
+}
+
+#spanNoIntentos{
+    margin-top: 10px;
+    width: 300px;
+    height: 40px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-align: center;
+    border-radius: 15px;
+    border:#744034;
+    border-style: solid;   
+    color:#744034; 
+}
